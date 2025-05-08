@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="RSVP" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="warning" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="WelcomeScreen">
+      <RoutineSettingsComponent name="WelcomeScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="WelcomeScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Text_Instructions" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Text_Instructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to the experiment!&amp;#10;&amp;#10;You will be shown a sequence of upright images. Out of all the images there will be one image with a different orientation, either tilted (90°) towards the left, or tilted(90°) towards the right. &amp;#10;&amp;#10;At the end of the trial you have to indicate the orientation of the tilted image by pressing the 'LEFT' key for left orientation or&amp;#10;the 'RIGHT' key for right orientation.&amp;#10;&amp;#10;Press the 'RIGHT' button to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.25" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse" plugin="None">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <RoutineSettingsComponent name="Fixation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Fixation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="Fixation_Shape" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="black" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="Fixation_Shape" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.035, 0.035)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="ImageDisplay">
+      <RoutineSettingsComponent name="ImageDisplay" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ImageDisplay" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="Code_ImageDisplay" plugin="None">
+        <Param val="import random&amp;#10;import pandas as pd&amp;#10;blockData = pd.read_excel('BlockCondition.xlsx')&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Experiment Class&amp;#10;# There is only 1 instance of this for the full experiment&amp;#10;&amp;#10;class experimentData: # not the same as PsychoPy's &quot;thisExp.data&quot;!!!&amp;#10;    def __init__(self):&amp;#10;        &amp;#10;        # Experiment Global Variables (default values)&amp;#10;        self.readGlobalVars()&amp;#10;        self.blockTrialList = list()&amp;#10;        self.generateAllBlockTrials()&amp;#10;        # Experiment Conditions&amp;#10;        #self.targetOrientList = list()&amp;#10;        #self.distPresentList = list()&amp;#10;        #self.distTypeList = list()&amp;#10;        #self.pseudoRandomExpCond()&amp;#10;        self.screenPosition = (0,0)&amp;#10;        '''&amp;#10;        print(&quot;DEBUG STATEMENTS&quot;)&amp;#10;        print(self.targetOrientList)&amp;#10;        print(self.distPresentList)&amp;#10;        print(self.distTypeList)&amp;#10;        '''&amp;#10;    &amp;#10;    # Reads global variables from &quot;&quot; Excel File&amp;#10;    def readGlobalVars(self):&amp;#10;        globalVarDF = pd.read_csv('GlobalVariables.csv', header = 0)&amp;#10;        # print(globalVarDF.to_string())&amp;#10;        self.totalTrialsPerBlock = globalVarDF[&quot;TrialsPerBlock&quot;].values[0]   # Save per-block trial count&amp;#10;        self.numBlocks = globalVarDF[&quot;TotalBlocks&quot;].values[0]  # HARDCODE or fetch this from somewhere else if needed&amp;#10;        self.totalTrials = self.totalTrialsPerBlock * self.numBlocks  # Adjust total&amp;#10;        self.totalImageCount = globalVarDF[&quot;TotalImages&quot;].values[0]&amp;#10;        self.fillerTime = globalVarDF[&quot;ImageDisplayTime&quot;].values[0] / 1000 # input in ms, saved as s&amp;#10;        self.targetTime = globalVarDF[&quot;ImageDisplayTime&quot;].values[0] / 1000&amp;#10;        self.distractorTime = globalVarDF[&quot;ImageDisplayTime&quot;].values[0] / 1000&amp;#10;        #self.targetOffsets = globalVarDF[&quot;TargetOffset&quot;].values[0].split(&quot;_&quot;) #eg. 1_2_8 = [1,2,8]&amp;#10;        #self.targetOffsets = list(int(x) for x in self.targetOffsets)&amp;#10;        self.targetOffsets = list(map(int, globalVarDF[&quot;TargetOffset&quot;].values[0].split(&quot;_&quot;)))&amp;#10;    # Generates a pseudo-randomised list for all possible conditions in a trial&amp;#10;    def generateAllBlockTrials(self):&amp;#10;        distTypes = [&quot;NEGATIVE&quot;, &quot;POSITIVE&quot;, &quot;NEUTRAL&quot;]&amp;#10;        targetOrients = [&quot;LEFT&quot;, &quot;RIGHT&quot;]&amp;#10;        offsets = self.targetOffsets&amp;#10;        # Make all combinations of distType × targetOrient × offset&amp;#10;        trialsPerBlock = self.totalTrialsPerBlock&amp;#10;        conditionPairs = [(d, o) for d in distTypes for o in offsets]&amp;#10;        #Divide dist type equally in blocks&amp;#10;        &amp;#10;        if trialsPerBlock % (len(distTypes) * len(offsets)) != 0:&amp;#10;            raise ValueError(&quot;TrialsPerBlock must be divisible by number of distractor types for per-block balance.&quot;)&amp;#10;        trialsInBlockPerType = trialsPerBlock // len(distTypes)&amp;#10;        self.blockTrialList = []  # Clear in case reused&amp;#10;        allBlocks = []&amp;#10;&amp;#10;        # Calculate repetition per condition to fill a block&amp;#10;        #reps = self.totalTrialsPerBlock // len(conditionPairs)&amp;#10;        #remainder = self.totalTrialsPerBlock % len(conditionPairs)&amp;#10;        &amp;#10;        for block in range(self.numBlocks):&amp;#10;            blockTrials = []&amp;#10;            for distType in distTypes:&amp;#10;                availablePairs = [(distType, o) for o in offsets]&amp;#10;                reps = trialsInBlockPerType // len(offsets)&amp;#10;                trials = availablePairs * reps&amp;#10;                &amp;#10;                blockTrials.extend(trials)&amp;#10;            &amp;#10;            # Shuffle to randomize trial order&amp;#10;            random.shuffle(blockTrials)&amp;#10;            trialDicts = []&amp;#10;            for distType, offset in blockTrials:&amp;#10;                trialDicts.append({&amp;#10;                    'targetOrient': random.choice(targetOrients),&amp;#10;                    'targetOffset': offset,&amp;#10;                    'distPresent': True,&amp;#10;                    'distType': distType&amp;#10;                })&amp;#10;            self.blockTrialList.append(trialDicts)&amp;#10;&amp;#10;            # Create DataFrame&amp;#10;            dF = pd.DataFrame(blockTrials, columns=[&quot;distType&quot;, &quot;targetOffset&quot;])&amp;#10;            dF.insert(0, &quot;Block&quot;, block + 1)&amp;#10;            allBlocks.append(dF)&amp;#10;            # Debug: Save to CSV&amp;#10;        &amp;#10;        fulldF = pd.concat(allBlocks, ignore_index=True)&amp;#10;        fulldF.to_csv(&quot;block_balanced_pairing.csv&quot;, index=False)&amp;#10;         # Extract the final randomized lists       &amp;#10;        #self.distTypeList = dF[&quot;distType&quot;].tolist()&amp;#10;        #self.targetOffsetList = dF[&quot;targetOffset&quot;].tolist()&amp;#10;        &amp;#10;thisExperimentData = experimentData()&amp;#10;&amp;#10;# Generate a flat trial list&amp;#10;allTrialList = []&amp;#10;trialIndex = 0&amp;#10;for blockIndex, blockTrials in enumerate(thisExperimentData.blockTrialList):&amp;#10;    for trialInBlock, trialDict in enumerate(blockTrials):&amp;#10;        trialDict['blockNum'] = blockIndex + 1&amp;#10;        trialDict['trialInBlock'] = trialInBlock + 1&amp;#10;        trialDict['trialGlobalIndex'] = trialIndex&amp;#10;        allTrialList.append(trialDict)      &amp;#10;# Initialize fullExpData once outside the loop&amp;#10;fields = [&quot;Block No.&quot;, &quot;Trial No.&quot;, &quot;Target Image&quot;, &quot;Target Position&quot;, &quot;Target Orientation&quot;,&amp;#10;          &quot;Distractor Position&quot;, &quot;Distractor Type&quot;, &quot;Distractor Image&quot;, &quot;Target-Distractor Lag&quot;, &quot;Accuracy&quot;, &quot;Response Time&quot;]&amp;#10;fullExpData = pd.DataFrame(columns=fields)  # Only initialized once&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="currRoutine = routineImgData();&amp;#10;currRoutine.displayNextImg();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# ! Start Experiment !&amp;#10;# at the start of your block loop&amp;#10;thisExperimentData = experimentData()&amp;#10;# Experiment Constants&amp;#10;NumberOfBlocks = thisExperimentData.numBlocks&amp;#10;trialsPerBlock = thisExperimentData.totalTrialsPerBlock &amp;#10;totalTrials = thisExperimentData.totalTrials&amp;#10;totalImageCount = thisExperimentData.totalImageCount&amp;#10;fillerTime = thisExperimentData.fillerTime&amp;#10;targetTime = thisExperimentData.targetTime &amp;#10;distractorTime = thisExperimentData.distractorTime&amp;#10;targetOffsets = thisExperimentData.targetOffsets&amp;#10;&amp;#10;# Trial Class&amp;#10;# There is one instance of this for each trial in the experiment&amp;#10;class routineImgData:&amp;#10;    def __init__(self, trialDict, trialIndex):&amp;#10;        self.trialIndex = trialIndex&amp;#10;        self.running = True&amp;#10;        self.imgCounter = 0&amp;#10;        self.currImg = None&amp;#10;        self.imgDisplayTimer = core.CountdownTimer(0)&amp;#10;        self.images = []&amp;#10;        self.imgDisplayTimes = []&amp;#10;&amp;#10;        self.targetOrient = trialDict['targetOrient']&amp;#10;        self.targetOffset = trialDict['targetOffset']&amp;#10;        self.distPresent = trialDict['distPresent']&amp;#10;        self.distType = trialDict['distType']&amp;#10;&amp;#10;        self.orderImages()&amp;#10;    &amp;#10;    # Ready up images to be shown&amp;#10;    def orderImages(self):&amp;#10;&amp;#10;        # Determine specific trial's conditions based on global exp data        &amp;#10;        # Target&amp;#10;        #self.targetOrient = thisExperimentData.targetOrientList[self.trialIndex]&amp;#10;        #self.targetOffset = thisExperimentData.targetOffsetList[self.trialIndex]&amp;#10;        self.targetPos = random.randint(2 + (self.targetOffset), (totalImageCount) - 3)&amp;#10;        &amp;#10;        # Distractor&amp;#10;        #self.distPresent = thisExperimentData.distPresentList[self.trialIndex]&amp;#10;        #self.distType = thisExperimentData.distTypeList[self.trialIndex]&amp;#10;        if(self.distPresent):&amp;#10;            self.distPos = self.targetPos - self.targetOffset&amp;#10;        else:&amp;#10;            self.distPos = &quot;NA&quot;&amp;#10;            &amp;#10;        # Add images and display time according to trial conditions&amp;#10;        nonFillerPos = [self.targetPos, self.distPos]&amp;#10;        for i in range(totalImageCount):&amp;#10;            if(i in nonFillerPos):&amp;#10;                if(i == self.targetPos):&amp;#10;                    img = pickTargetImg(self.targetOrient)&amp;#10;                    self.imgDisplayTimes.append(targetTime)&amp;#10;                elif(self.distPresent and i == self.distPos):&amp;#10;                    img = pickDistImg(self.distType)&amp;#10;                    self.imgDisplayTimes.append(distractorTime)&amp;#10;            else:&amp;#10;                img = pickFillerImg()&amp;#10;                self.imgDisplayTimes.append(fillerTime)&amp;#10;            &amp;#10;            self.images.append(img)&amp;#10;  &amp;#10;    # Handles image change and timer updates&amp;#10;    def displayNextImg(self):&amp;#10;        self.imgDisplayTimer.reset()&amp;#10;&amp;#10;        if(self.imgCounter &gt; totalImageCount - 1):&amp;#10;            self.running = False&amp;#10;&amp;#10;        # set up things for next image&amp;#10;        if(self.running):&amp;#10;            self.currImg = self.images[self.imgCounter - 1]&amp;#10;            self.imgDisplayTimer.addTime(self.imgDisplayTimes[self.imgCounter])&amp;#10;            self.imgCounter += 1&amp;#10;&amp;#10;# Image Selection Utilities&amp;#10;def pickTargetImg(orientation): # can be &quot;LEFT&quot; or &quot;RIGHT&quot;&amp;#10;    # ensure correct input&amp;#10;    validOrientation = [&quot;LEFT&quot;, &quot;RIGHT&quot;]&amp;#10;    if(orientation not in validOrientation):&amp;#10;        return &quot;INVALID ORIENTATION&quot;&amp;#10;    &amp;#10;    # pick image at random based on orientation&amp;#10;    # NEED TO PREVENT REPETITIONS&amp;#10;    targetImg = &quot;Images/Target/&quot;&amp;#10;    if(orientation == &quot;LEFT&quot;):&amp;#10;        targetImg += &quot;L&quot; + str(random.randint(1, 79)) + &quot;.jpg&quot;&amp;#10;    elif(orientation == &quot;RIGHT&quot;):&amp;#10;        targetImg += &quot;R&quot; + str(random.randint(1, 80)) + &quot;.jpg&quot;&amp;#10;    &amp;#10;    return targetImg&amp;#10;&amp;#10;# Filler Image Class&amp;#10;def pickFillerImg():&amp;#10;    # picks image at random&amp;#10;    # NEED TO PREVENT REPETITIONS&amp;#10;    fillerImg = &quot;Images/Fillers/&quot; + str(random.randint(1, 123)) + &quot;.jpg&quot;&amp;#10;    return fillerImg&amp;#10;&amp;#10;# Distractor Image Class&amp;#10;def pickDistImg(distType): # can be &quot;NEGATIVE&quot; or &quot;POSITIVE&quot; or &quot;NEUTRAL&quot;&amp;#10;    # ensure correct input&amp;#10;    validType = [&quot;NEGATIVE&quot;, &quot;POSITIVE&quot;, &quot;NEUTRAL&quot;]&amp;#10;    if(distType not in validType):&amp;#10;        return &quot;INVALID TYPE&quot;&amp;#10;    &amp;#10;    # pick image at random based on orientation&amp;#10;    # NEED TO PREVENT REPETITIONS&amp;#10;    distImg = &quot;Images/&quot;&amp;#10;    if(distType == &quot;NEGATIVE&quot;):&amp;#10;        distImg += &quot;DistNeg/&quot; + str(random.randint(1, 90)) + &quot;.jpg&quot;&amp;#10;    elif(distType == &quot;POSITIVE&quot;):&amp;#10;        distImg += &quot;DistPos/&quot; + str(random.randint(1, 90)) + &quot;.jpg&quot;&amp;#10;    elif(distType == &quot;NEUTRAL&quot;):&amp;#10;        distImg += &quot;Neutral/&quot; + str(random.randint(1, 90)) + &quot;.jpg&quot;&amp;#10;    return distImg&amp;#10;# Access current trial using Builder’s loop index&amp;#10;trialDict = allTrialList[Trials.thisN]&amp;#10;&amp;#10;currRoutine = routineImgData(trialDict, trialDict['trialGlobalIndex'])&amp;#10;&amp;#10;# Store for use in End Routine&amp;#10;currRoutine.block = trialDict['blockNum']&amp;#10;currRoutine.trialInBlock = trialDict['trialInBlock']&amp;#10;currRoutine.trialGlobalIndex = trialDict['trialGlobalIndex']&amp;#10;&amp;#10;# Create trial-specific dictionary with relevant details&amp;#10;  &amp;#10;print(&quot;Block:&quot;, currRoutine.block)       # Debug print to check each trial's parameters&amp;#10;             &amp;#10;# Debug print&amp;#10;#print(f&quot;Block {blockIndex+1}, Trial {trialInBlock+1}: {trialDict}&quot;)&amp;#10;     &amp;#10;# Initialize routineImgData (custom class) for each trial&amp;#10;&amp;#10;# You can use the routine data for this trial to display the images and capture data&amp;#10;&amp;#10;# Initialise routine data and start running it" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Check if imgDisplayTimer has run out&amp;#10;if currRoutine.imgDisplayTimer.getTime() &lt;= 0:&amp;#10;    currRoutine.displayNextImg()&amp;#10;&amp;#10;# Check if image display has ended and close routine&amp;#10;if currRoutine.running == False:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((currRoutine.imgDisplayTimer.getTime() &lt;= 0)) {&amp;#10;    currRoutine.displayNextImg();&amp;#10;}&amp;#10;if ((currRoutine.running === false)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Extract trial data for export&amp;#10;if currRoutine.distPresent:&amp;#10;    distImg = currRoutine.images[currRoutine.distPos]&amp;#10;    lag = currRoutine.targetPos - currRoutine.distPos  # this will always be positive and equal to offset&amp;#10;    distPos = currRoutine.distPos + 1&amp;#10;else:&amp;#10;    distImg = &quot;NA&quot;&amp;#10;    lag = None&amp;#10;    distPos = &quot;NA&quot;    &amp;#10;    &amp;#10;trialData = [&amp;#10;            currRoutine.block,  # Access the block number from the loop (if thisN is 0-indexed)&amp;#10;            trialIndex,&amp;#10;            currRoutine.images[currRoutine.targetPos],&amp;#10;            currRoutine.targetPos + 1,&amp;#10;            currRoutine.targetOrient,&amp;#10;            distPos,&amp;#10;            currRoutine.distType,&amp;#10;            distImg,&amp;#10;            lag,&amp;#10;            &quot;NOT ANSWERED YET&quot;,  # Placeholder for Accuracy&amp;#10;            &quot;NOT ANSWERED YET&quot;   # Placeholder for Response Time&amp;#10;            ]                &amp;#10;# Ensure fullExpData is initialized with column names before using it&amp;#10;#fullExpData.loc[len(fullExpData)] = trialData&amp;#10;&amp;#10;# If fullExpData is already a DataFrame, you can use .loc to add a row at the trialIndex&amp;#10;#fullExpData.loc[trialIndex] = trialData&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="Code_ImageDisplay" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="ImageComponent" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$currRoutine.currImg" valType="file" updates="set every frame" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="ImageComponent" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(400, 300)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="DebugText_CurrImg" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="DebugText_CurrImg" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currRoutine.currImg" valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="DebugText_Timer" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="DebugText_Timer" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currRoutine.imgDisplayTimer.getTime()" valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="DebugText_ImgCounter" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="DebugText_ImgCounter" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.5, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$currRoutine.imgCounter" valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="InputPhase">
+      <RoutineSettingsComponent name="InputPhase" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="InputPhase" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="Code_InputPhase" plugin="None">
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="accuracyText = &quot;DEFAULT&quot;;&amp;#10;correctAnswer = &quot;DEFAULT&quot;;&amp;#10;givenAns = &quot;DEFAULT&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="accuracyText = &quot;DEFAULT&quot;&amp;#10;correctAnswer = &quot;DEFAULT&quot;&amp;#10;givenAns = &quot;DEFAULT&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="fields = [&quot;Trial No.&quot;, &quot;Target Image&quot;, &quot;Target Position&quot;, &quot;Target Orientation&quot;, &quot;Distractor Position&quot;, &quot;Distractor Type&quot;, &quot;Distractor Image&quot;, &quot;Target-Distractor Lag&quot;, &quot;Accuracy&quot;, &quot;Response Time&quot;];&amp;#10;fullExpData = new pd.DataFrame(list(), {&quot;columns&quot;: fields});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((currRoutine.targetOrient === &quot;LEFT&quot;)) {&amp;#10;    correctAnswer = &quot;LEFT&quot;;&amp;#10;} else {&amp;#10;    correctAnswer = &quot;RIGHT&quot;;&amp;#10;}&amp;#10;trialCount = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# At stimulus onset&amp;#10;rtClock = core.Clock()&amp;#10;Mouse.clickReset()&amp;#10;# At stimulus onset, reset the clock&amp;#10;rtClock.reset()&amp;#10;responseTime_ms = 0&amp;#10;givenAns = &quot;NO_CLICK&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="trialCount += 1;&amp;#10;responseTimes = [];&amp;#10;accuracies = [];&amp;#10;rtClock = new util.Clock();&amp;#10;Mouse.clickReset();&amp;#10;if (Mouse.getPressed()[0]) {&amp;#10;    responseTime_ms = (rtClock.getTime() * 1000);&amp;#10;}&amp;#10;if ((Mouse.leftButton === 1)) {&amp;#10;    givenAns = &quot;LEFT&quot;;&amp;#10;} else {&amp;#10;    if ((Mouse.rightButton === 1)) {&amp;#10;        givenAns = &quot;RIGHT&quot;;&amp;#10;    } else {&amp;#10;        givenAns = &quot;NO_CLICK&quot;;&amp;#10;    }&amp;#10;}&amp;#10;if ((correctAnswer === givenAns)) {&amp;#10;    accuracy = true;&amp;#10;    accuracyText = &quot;CORRECT&quot;;&amp;#10;} else {&amp;#10;    accuracy = false;&amp;#10;    accuracyText = &quot;WRONG&quot;;&amp;#10;}&amp;#10;responseTimes.push(responseTime_ms);&amp;#10;accuracies.push(Number.parseInt(accuracy));&amp;#10;psychoJS.experiment.addData(&quot;Accuracy&quot;, accuracy);&amp;#10;currTrialData = [trialCount, currRoutine.images[currRoutine.targetPos], (currRoutine.targetPos + 1), currRoutine.targetOrient, (currRoutine.distPos + 1), currRoutine.distType, distImg, lag, accuracy, responseTime_ms];&amp;#10;row_df = new pd.DataFrame([currTrialData], {&quot;columns&quot;: fullExpData.columns});&amp;#10;fullExpData = pd.concat([fullExpData, row_df], {&quot;ignore_index&quot;: true});&amp;#10;console.log(fullExpData);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if currRoutine.targetOrient == &quot;LEFT&quot;:&amp;#10;    correctAnswer = &quot;LEFT&quot;&amp;#10;else:&amp;#10;    correctAnswer = &quot;RIGHT&quot;&amp;#10;  &amp;#10;while True:&amp;#10;        mouseState = Mouse.getPressed()  # Get the current mouse state&amp;#10;        if mouseState != [0, 0, 0]:  # If any mouse button is pressed&amp;#10;            # Check if the left button is pressed&amp;#10;            if mouseState[0] == 1:  # Left mouse button&amp;#10;                responseTime_ms = rtClock.getTime() * 1000  # Get response time in ms&amp;#10;                givenAns = &quot;LEFT&quot;&amp;#10;                break&amp;#10;            # Check if the right button is pressed&amp;#10;            elif mouseState[2] == 1:  # Right mouse button&amp;#10;                responseTime_ms = rtClock.getTime() * 1000&amp;#10;                givenAns = &quot;RIGHT&quot;&amp;#10;                break&amp;#10;&amp;#10;#responseTime_ms = Mouse.time[trialCount - 1] * 1000&amp;#10;if correctAnswer == givenAns:&amp;#10;    accuracy = True&amp;#10;    accuracyText = &quot;CORRECT&quot;&amp;#10;else:&amp;#10;    accuracy = False&amp;#10;    accuracyText = &quot;WRONG&quot;&amp;#10;    &amp;#10;# Assuming you're using a TrialHandler loop named 'trials'&amp;#10;#thisExp.addData(&quot;Trial No.&quot;, trials.thisN + 1)&amp;#10;thisExp.addData(&quot;Accuracy&quot;, accuracy)&amp;#10;thisExp.addData(&quot;Answer&quot;, givenAns)&amp;#10;thisExp.addData(&quot;Orientation&quot;, currRoutine.targetOrient)&amp;#10;for blockIndex, blockTrials in enumerate(thisExperimentData.blockTrialList):&amp;#10;    for trialInBlock, trialDict in enumerate(blockTrials):&amp;#10;        trialData = [&amp;#10;            currRoutine.block,  # Access the block number from the loop (if thisN is 0-indexed)&amp;#10;            trialIndex,                  # Trial Number (or use thisN if preferred)&amp;#10;            currRoutine.images[currRoutine.targetPos],&amp;#10;            currRoutine.targetPos + 1,&amp;#10;            currRoutine.targetOrient,&amp;#10;            distPos,&amp;#10;            currRoutine.distType,&amp;#10;            distImg,&amp;#10;            lag,&amp;#10;            int(accuracy),&amp;#10;            responseTime_ms&amp;#10;        ]&amp;#10;# Optional: print to check the data&amp;#10;print(f&quot;final Trial Index: {trialIndex}&quot;)  # Ensure trialIndex is initialized and correctly used&amp;#10;&amp;#10;fullExpData.loc[len(fullExpData)] = trialData&amp;#10;&amp;#10;trialIndex += 1  # Increment trialIndex after each trial&amp;#10;&amp;#10;# Update DataFrame&amp;#10;#fullExpData.loc[trialCount - 1] = currTrialData&amp;#10;#update trial data file&amp;#10;# After trial is completed, update accuracy and response time&amp;#10;&amp;#10;#leftKeys = ['left']&amp;#10;#leftAns = (currRoutine.targetOrient == &quot;LEFT&quot;) and (givenAns in leftKeys)&amp;#10;&amp;#10;#rightKeys = ['right']&amp;#10;#rightAns = (currRoutine.targetOrient == &quot;RIGHT&quot;) and (givenAns in rightKeys)&amp;#10;#if (leftAns or rightAns):&amp;#10; #   accuracy = True&amp;#10;  #  accuracyText = &quot;CORRECT&quot;&amp;#10;#else:&amp;#10; #   accuracy = False&amp;#10;  #  accuracyText = &quot;WRONG&quot;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="Code_InputPhase" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <MouseComponent name="Mouse" plugin="None">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="CorrectAnswer" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="Mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <TextComponent name="Text_InputPhase" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Text_InputPhase" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="What was the orientation of the target image?&amp;#10;&amp;#10;Press &quot;LEFT&quot; or &quot;RIGHT&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="ExitScreen">
+      <RoutineSettingsComponent name="ExitScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ExitScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Text_Ending" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Text_Ending" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The experimented has ended.&amp;#10;&amp;#10;Press &quot;SPACE&quot; to exit the application" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="KeyInput_ExitScreen" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="KeyInput_ExitScreen" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="FeedbackPhase">
+      <RoutineSettingsComponent name="FeedbackPhase" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="FeedbackPhase" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="Text_Feedback" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Text_Feedback" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$accuracyText" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Break">
+      <RoutineSettingsComponent name="Break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="console.log(fullExpData);&amp;#10;if ((BlockNumber === blockNo.trialList.slice((- 1))[0][&quot;BlockNumber&quot;])) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="print(fullExpData)&amp;#10;&amp;#10;if BlockNumber == blockNo.trialList[-1]['BlockNumber']:&amp;#10;    continueRoutine = False  # Skip this routine in the last block" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="-1.0000, -0.2157, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="This is a break for one minute. " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="-1.0000, -0.2157, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Please call the experimenter in the room.&amp;#10;&amp;#10;Click mouse button when you are ready." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_2" plugin="None">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="SavingData">
+      <RoutineSettingsComponent name="SavingData" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="SavingData" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="SavingDataText" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="SavingDataText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Saving Data..." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="SaveData" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# create file and path&amp;#10;absolutePath = os.path.dirname(__file__)&amp;#10;relativePath = &quot;CustomData&quot;&amp;#10;dataSavePath = os.path.join(absolutePath, relativePath)&amp;#10;&amp;#10;fileName = expInfo['participant'] + &quot;_&quot; + expInfo[&quot;session&quot;] + &quot;_Data.xlsx&quot;&amp;#10;filePath = os.path.join(dataSavePath, fileName)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Ensure directory exists&amp;#10;os.makedirs(dataSavePath, exist_ok=True)&amp;#10;&amp;#10;# Save custom data to Excel&amp;#10;fullExpData.columns = [&amp;#10;    &quot;Block No&quot;,&quot;Trial No&quot;, &quot;Target Image&quot;, &quot;Target Position&quot;, &quot;Target Orientation&quot;,&amp;#10;    &quot;Distractor Position&quot;, &quot;Distractor Type&quot;, &quot;Distractor Image&quot;,&amp;#10;    &quot;Lag&quot;, &quot;Accuracy&quot;, &quot;Response Time&quot;&amp;#10;]&amp;#10;fullExpData.to_excel(filePath, index=False)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# save file to pc storage&amp;#10;dataDF = pd.DataFrame(data = fullExpData)&amp;#10;with pd.ExcelWriter(filePath) as writer:&amp;#10;    dataDF.to_excel(writer, sheet_name = expInfo['participant'] + &quot;_&quot; + expInfo[&quot;session&quot;], index = False)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="SaveData" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="WelcomeScreen"/>
+    <LoopInitiator loopType="TrialHandler" name="blockNo">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'BlockNumber': 1}, {'BlockNumber': 2}, {'BlockNumber': 3}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="BlockCondition.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="blockNo" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="Trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('TotalTrials', 5), ('TotalImages', 22), ('ImageDisplayTime', 100), ('TargetOffset', 18.0)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="Trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="ImageDisplay"/>
+    <Routine name="InputPhase"/>
+    <Routine name="FeedbackPhase"/>
+    <LoopTerminator name="Trials"/>
+    <Routine name="Break"/>
+    <LoopTerminator name="blockNo"/>
+    <Routine name="SavingData"/>
+    <Routine name="ExitScreen"/>
+  </Flow>
+</PsychoPy2experiment>
